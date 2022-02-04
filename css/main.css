@@ -1,0 +1,154 @@
+.wrapper {
+	top:  0;
+	left: 0;
+	width: 100%;
+
+	z-index: 2000;
+	background-color: #d1cdcd;
+}
+
+.container {
+	width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-section {
+	height: 80vh;
+	display: flex;
+	background-image: url('../img/menu_background3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	max-height: 700px;
+
+}
+.main {
+	width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+#menu {
+	width:  1140px;
+	height: 100px;
+	
+}
+.menubar {
+	position: absolute;
+	align-items: center;
+	display: flex;
+	float: right;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.link {
+	margin: 20px;
+}
+.link-bar {
+	padding: 20px 40px;
+}
+.home-name {
+	text-align: center;
+	padding-top: 200px;
+	font-size: 40px;
+}
+.content {
+	
+	width: 1080px;
+	display: flex;
+	padding-top: 30px;
+
+}
+.game-menu {
+	width: 200px;
+	float: left;
+}
+#explanation {
+	padding-left: 15px;
+}
+.game {
+	width: 880px;
+	display: block;
+}
+#set-list {
+	display: flex;
+}
+#set-list {
+	
+	height: 100%;
+	padding-top: 20px;
+}
+.card {
+
+	cursor: pointer;
+	display: inline-block;
+	background-color: #050505;
+	color: white;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	
+
+}
+#card-select {
+	width: 190px;
+	height:195px;
+ 	display: inherit;
+ 	position: relative;
+  	cursor:pointer;
+}
+#card-select img {
+	box-shadow: 0 1px 10px rgba(0,0,0,0.4);
+	width: inherit;
+	height: inherit;
+}
+.fade {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+	background: #000000;
+	opacity: 0;
+	transition: all .3s linear;
+}
+#card-select:hover .fade{
+	opacity: 0.4;
+}
+#card-select {
+	width: 100%;
+}
+.button {
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: #050505;
+	color: white;
+}
+
+
+.footer {
+	display: block;
+	height: 200px;
+	background-color: #050505;
+}
+.footer-copyright {
+	display: inherit;
+	
+	text-align: center;
+}
+.footer-copyright div {
+	margin: 0 auto;
+	text-align: center;
+	float: right;
+}
+

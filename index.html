@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<title>Set Game Online</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+	</head>
+	<body>
+
+		<div class="wrapper">
+			<div class="header-section">
+				<div class="container">
+					<div class="header">
+						<!--The main page menu -->
+						<div id="menu">
+							<ul class="menubar alignleft">
+								<li class="link">
+									<a href="index.html" class="link-bar">Home</a>
+								</li>
+								<li class="link">
+									<a href="#">Game</a>
+								</li>
+							</ul>
+						</div>
+						<!--The home name-->
+						<div class="home-name">
+							<div class="container">X6 Set Game</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!--The contents part-->
+			<div class="main">
+				<div class="content">
+					<!--The alert alarm for game information-->
+					<div class="alert"></div>
+					<!--The game menu section-->
+					<div class="game-menu">
+						<!--href will let the js happens for the each menu-->
+						<a href="#" class="button">Open 3 cards</a>
+						<a href="#" class="button">Find set</a>
+						<p id="explanation">Cards in deck: 80</p>
+						<p id="explanation">Game duration: 70 sec</p>
+						<p id="explanation">Score: 0</p>
+						<p id="explanation">Sets found: 0</p>
+					</div>
+					<!--The card section-->
+					<!--The JavaScript for handling JS action such as changing the card and adding other cards-->
+					<div class="game">
+						<form method="post" name="set-form" id="set-form" action="#">
+							<!--The card list html-->
+							<table id="set-list">
+								<tbody>
+									<tr>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+										<td class="card">
+											<a href="#" id="card-select">
+												<img src="./img/card_demo.png"/>
+												<div class="fade"></div>
+											</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!--Footer section-->
+			<footer class="footer">
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="content">
+							<p>@Copyright X6</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
